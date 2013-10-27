@@ -1,6 +1,4 @@
-(function(){
-
-    var rooter = new (Backbone.Router.extend({
+new (Backbone.Router.extend({
         routes: {
             '':'index',
         },
@@ -9,5 +7,3 @@
             Application.setView(view);
         },
     }))();
-
-}());
