@@ -1,6 +1,4 @@
-(function(){
-
-    Application.View.extend({
+Application.View.extend({
         name:'index',
         id: 6,
         initialize: function(){
@@ -10,6 +8,4 @@
             activated: function(){
             }
         }
-    });
-
-}());
+});
